@@ -68,6 +68,7 @@
     height: auto;
     transform: translateX(-100%);
     transition: all 0.45s;
+    z-index: 1;
   }
 
   .Navbar .nav-items a::before {

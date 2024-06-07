@@ -1,4 +1,8 @@
-const Home = () => {
-  return <h2>Home</h2>;
+  import Hero from "./Hero";
+  import "./home.css";
+  const Home = () => {
+  return(
+    <Hero/>
+  )
 };
 export default Home;
