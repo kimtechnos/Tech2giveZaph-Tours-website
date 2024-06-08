@@ -1,0 +1,108 @@
+:root {
+  --color-primary: #007bff;
+  --color-primary-light: #339cff;
+  --color-primary-lighter: #66bfff;
+  --color-secondary: #ff5722;
+  --color-secondary-light: #ff8a50;
+  --color-accent: #ffd700;
+  --color-black: #1d1d1d;
+  --color-black-light: #4a4a4a;
+  --color-white: #ffffff;
+  --color-white-light: #e3dbdb;
+}
+.contact-section {
+  display: flex;
+  margin: 3rem auto;
+
+  flex-direction: row;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: var(--color-white);
+}
+@media screen and (max-width: 62.875em) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 10px;
+  }
+}
+
+.contact-section-form {
+  width: 100%;
+  max-width: 600px;
+
+  padding: 20px;
+  background: var(--color-white-light);
+  box-shadow: 0 0 10px rgba(26, 197, 55, 0.1);
+  border-radius: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form-group label {
+  margin-bottom: 5px;
+
+  font-weight: bold;
+  color: var(--color-black);
+}
+
+.contact-form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-form-input:focus {
+  border-color: var(--color-secondary-light);
+  outline: none;
+}
+
+textarea.contact-form-input {
+  resize: vertical;
+  height: 100px;
+}
+
+.submit-btn {
+  padding: 15px 20px;
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.contact-section-map {
+  width: 100%;
+  max-width: 800px;
+}
+@media screen and (max-width: 62.875em) {
+  .contact-section-map {
+    justify-content: center;
+    max-width: 600px;
+  }
+
+  .contact-section-map iframe {
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}

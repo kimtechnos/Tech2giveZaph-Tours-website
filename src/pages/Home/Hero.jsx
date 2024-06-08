@@ -8,9 +8,7 @@ const Hero = () => {
       </video>
       <div className="hero-textbox">
         <h2> Welcome TO ZAPH TOURS AND TRAVEL LIMITED </h2>
-        {/* <p>
-          THE LEADING TRAVEL AGENCY, TOURS AND SAFARIS AFENCY IN KENYA
-        </p> */}
+
         <div className="hero-ctas"></div>
       </div>
     </section>

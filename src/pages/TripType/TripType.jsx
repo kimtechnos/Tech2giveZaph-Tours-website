@@ -1,4 +1,13 @@
-const TripTypes = () => {
-  return <h3>Trip types</h3>;
+import Banner from "../../components/Header/Banner/Banner";
+import React from "react";
+const TripType = () => {
+  return (
+    <React.Fragment>
+      <Banner
+        maintitle="Explore Kenya: Book Your Safari Today!"
+        description=" Don't miss out! Secure your dream adventure with Zaph Tours"
+      />
+    </React.Fragment>
+  );
 };
-export default TripTypes;
+export default TripType;
