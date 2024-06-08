@@ -1,0 +1,22 @@
+.banner-section {
+  height: 25vh;
+  background: var(--color-secondary-light);
+  /* background-color: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/banner.jpg); */
+  place-content: center;
+  display: grid;
+}
+.banner-section h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "plafair display", sans-serif;
+  font-weight: 550;
+  letter-spacing: 2px;
+  color: var(--color-white);
+  font-size: 2rem;
+}
+.banner-section p {
+  text-align: center;
+  color: var(--color-white);
+  letter-spacing: 2px;
+  font-weight: 400;
+}
