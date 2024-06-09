@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Destination from "./pages/Destination/Destination";
 import TripTypes from "./pages/TripType/TripType";
 import Contact from "./pages/Contact/Contact";
+import Footer from "./components/Header/Footer/Footer";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/trips" element={<TripTypes />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
