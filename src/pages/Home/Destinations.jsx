@@ -5,6 +5,7 @@ import ke from "../../assets/mt kenya.jpg";
 import rue from "../../assets/Mount-Rwenzori.jpg";
 import nak from "../../assets/l nakuru.jpeg";
 import tsa from "../../assets/tsavo.jpeg";
+import mara from "../../assets/mara.jpeg";
 
 import cost from "../../assets/fort.jpeg";
 
@@ -16,34 +17,38 @@ const Data = [
     location: "Central",
     grade: "Hiking, Wildlife Viewing",
     price: "sh500",
-    description: "The best place to be",
+    description:
+      "Explore the tallest peak in Kenya, Mt. Kenya, offering diverse landscapes and incredible wildlife encounters.",
   },
   {
     id: 2,
     imgsrc: rue,
     desttitle: "Mt. Ruwenzori,",
     location: "Nyanza",
-    grade: "Cultural",
-    price: "sh500",
-    description: "The best place to ",
+    grade: "Hiking",
+    price: "sh300",
+    description:
+      "Dive into the cultural richness of Mt. Ruwenzori in Nyanza, where ancient traditions meet breathtaking scenery ",
   },
   {
     id: 3,
     imgsrc: nak,
     desttitle: "Lake Nakuru",
     location: "Rift",
-    grade: "Cultural",
-    price: "sh500",
-    description: "The best place to be",
+    grade: "Flamingos",
+    price: "sh400",
+    description:
+      "Discover the vibrant birdlife and captivating beauty of Lake Nakuru in the Rift Valley, a haven for nature lovers.",
   },
   {
     id: 4,
     imgsrc: tsa,
     desttitle: "Tsavo National Park",
     location: "costal",
-    grade: "",
-    price: "sh500",
-    description: "The best place to be",
+    grade: "Wildlife, Adventure",
+    price: "sh1000",
+    description:
+      " Experience the untamed wilderness of Tsavo National Park, a coastal sanctuary teeming with wildlife and adventure.",
   },
   {
     id: 5,
@@ -51,35 +56,39 @@ const Data = [
     desttitle: "Nairobi national park",
     location: "Nairob",
     grade: "Cultural",
-    price: "sh500",
-    description: "The best place to be",
+    price: "sh1000",
+    description:
+      "Witness the unique blend of wildlife and urbanity at Nairobi National Park, a natural oasis within the city limits.",
   },
   {
     id: 6,
     imgsrc: cost,
     desttitle: "Coastal Kenya",
     location: "Central",
-    grade: "coast",
-    price: "sh500",
-    description: "The best place to be",
+    grade: " Coastal Experience",
+    price: "sh100",
+    description:
+      " Indulge in sun, sand, and sea along the captivating coastline of Kenya, a paradise of tropical allure and cultural charm.",
   },
   {
-    id: 3,
+    id: 7,
     imgsrc: nak,
     desttitle: "Lake Nakuru",
     location: "Rift",
     grade: "Cultural",
-    price: "sh500",
-    description: "The best place to be",
+    price: "sh1000",
+    description:
+      "Dive into the vibrant birdlife and captivating beauty of Lake Nakuru in the Rift Valley, a haven for nature lovers.",
   },
   {
-    id: 3,
-    imgsrc: nak,
+    id: 8,
+    imgsrc: mara,
     desttitle: "Maasai mara ",
     location: "Rift",
     grade: "Cultural",
-    price: "sh500",
-    description: "The best place to be",
+    price: "sh2000",
+    description:
+      "Maasai Mara, home to the iconic Great Migration and legendary Maasai people.",
   },
 ];
 
@@ -104,10 +113,7 @@ const Destinations = () => {
                   </span>
                   <div className="price-flex">
                     <div className="grade">
-                      <span>
-                        {grade}
-                        <small>/=</small>
-                      </span>
+                      <span>{grade}</span>
                     </div>
                     <div className="price">
                       <h5>{price}</h5>
