@@ -6,6 +6,8 @@ import h1 from "../../assets/h1.jpg";
 import h2 from "../../assets/h2.jpg";
 import h3 from "../../assets/h3.jpg";
 import h4 from "../../assets/h4.jpeg";
+import h5 from "../../assets/mara.jpeg";
+import h6 from "../../assets/mt kenya.jpg";
 
 const Destinations = () => {
   return (
@@ -16,16 +18,16 @@ const Destinations = () => {
       />
       <section className="cards-details">
         <Destination
-          image={h1}
+          image={h6}
           name="mt kenya"
-          description="very cool place"
+          description="Hike through stunning landscapes and diverse ecosystems on this unforgettable expedition to Africa's second-highest mountain. "
           link="mt.com"
           pricegroup="150/="
           priceindividual="500/="
         />
         <Destination
           image={h2}
-          name="mt kenya"
+          name="Masai Mara National Reserve"
           description="very cool place"
           link="mt.com"
           pricegroup="150/="
@@ -33,7 +35,7 @@ const Destinations = () => {
         />
         <Destination
           image={h3}
-          name="mt kenya"
+          name="Amboseli National Park"
           description="very cool place"
           link="mt.com"
           pricegroup="150/="
@@ -41,7 +43,7 @@ const Destinations = () => {
         />
         <Destination
           image={banner}
-          name="mt kenya"
+          name="The Great Rift Valley"
           description="very cool place"
           link="mt.com"
           pricegroup="150/="
@@ -49,7 +51,15 @@ const Destinations = () => {
         />
         <Destination
           image={h4}
-          name="mt kenya"
+          name="Laikipia Plateau"
+          description="very cool place"
+          link="mt.com"
+          pricegroup="150/="
+          priceindividual="500/="
+        />
+        <Destination
+          image={h1}
+          name="Diani Beach"
           description="very cool place"
           link="mt.com"
           pricegroup="150/="
@@ -57,7 +67,7 @@ const Destinations = () => {
         />
         <Destination
           image={banner}
-          name="mt kenya"
+          name="Meru National Par"
           description="very cool place"
           link="mt.com"
           pricegroup="150/="
@@ -65,15 +75,7 @@ const Destinations = () => {
         />
         <Destination
           image={banner}
-          name="mt kenya"
-          description="very cool place"
-          link="mt.com"
-          pricegroup="150/="
-          priceindividual="500/="
-        />
-        <Destination
-          image={banner}
-          name="mt kenya"
+          name="Lewa Wildlife Conservancy"
           description="very cool place"
           link="mt.com"
           pricegroup="150/="

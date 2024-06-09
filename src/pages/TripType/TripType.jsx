@@ -14,37 +14,37 @@ const TripType = () => {
 
       <section className="trips-container">
         <Trips
-          title="honeymoon"
+          title="Honeymoon"
           image={img}
           description="This page will contain section for different packages, for each package, you need to have the following:"
           price="500/="
         />
         <Trips
-          title="honeymoon"
+          title="Family"
           image={img}
           description="This page will contain section for different packages, for each package, you need to have the following:"
           price="500/="
         />
         <Trips
-          title="honeymoon"
+          title="Adventure"
           image={img}
           description="This page will contain section for different packages, for each package, you need to have the following:"
           price="500/="
         />
         <Trips
-          title="honeymoon"
+          title="culturaltours"
           image={img}
           description="This page will contain section for different packages, for each package, you need to have the following:"
           price="500/="
         />
         <Trips
-          title="honeymoon"
+          title="wildlife safaris"
           image={img}
           description="This page will contain section for different packages, for each package, you need to have the following:"
           price="500/="
         />
         <Trips
-          title="honeymoon"
+          title="luxury vacations"
           image={img}
           description="This page will contain section for different packages, for each package, you need to have the following:"
           price="500/="
