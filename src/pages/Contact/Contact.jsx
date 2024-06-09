@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <Banner
-        maintitle="Explore Kenya: Book Your Safari Today!"
+        maintitle="Unforgettable Adventures Begin Here: Contact Zaph Tours"
         description=" Don't miss out! Secure your dream adventure with Zaph Tours"
       />
       <section className="contact-section">

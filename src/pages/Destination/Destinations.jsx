@@ -7,7 +7,7 @@ const Destinations = () => {
   return (
     <>
       <Banner
-        maintitle="Explore Kenya: Book Your Safari Today!"
+        maintitle="Zaph Tours: Explore Kenya's Destinations"
         description=" Don't miss out! Secure your dream adventure with Zaph Tours"
       />
       <section className="cards-details">

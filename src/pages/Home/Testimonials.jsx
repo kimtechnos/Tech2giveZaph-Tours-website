@@ -1,6 +1,9 @@
 import React from "react";
 import { IoStarSharp } from "react-icons/io5";
 import kim from "../../assets/g4.jpg";
+import k1 from "../../assets/l1.jpg";
+import k3 from "../../assets/g3.jpg";
+
 import "./testimonilas.css";
 
 const Testimonials = () => {
@@ -15,7 +18,7 @@ const Testimonials = () => {
             <img src={kim} alt="Kimani" />
           </div>
           <div className="person-details">
-            <p className="title">Kimani</p>
+            <p className="title">Esther</p>
             <p className="origin">Kenyan tourist</p>
           </div>
           <div className="message">
@@ -34,11 +37,11 @@ const Testimonials = () => {
         </div>
         <div className="test-card">
           <div className="test-details">
-            <img src={kim} alt="Kimani" />
+            <img src={k1} alt="Kimani" />
           </div>
           <div className="person-details">
-            <p className="title">Kimani</p>
-            <p className="origin">Kenyan tourist</p>
+            <p className="title">bob</p>
+            <p className="origin">American tourist</p>
           </div>
           <div className="message">
             <p>
@@ -56,11 +59,11 @@ const Testimonials = () => {
         </div>
         <div className="test-card">
           <div className="test-details">
-            <img src={kim} alt="Kimani" />
+            <img src={k3} alt="Kimani" />
           </div>
           <div className="person-details">
-            <p className="title">Kimani</p>
-            <p className="origin">Kenyan tourist</p>
+            <p className="title">Vic</p>
+            <p className="origin">from Britain </p>
           </div>
           <div className="message">
             <p>

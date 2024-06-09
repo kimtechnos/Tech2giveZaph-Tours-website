@@ -1,58 +1,82 @@
 import React from "react";
 import "./home.css";
 import img from "../../assets/banner.jpg";
+import ke from "../../assets/mt kenya.jpg";
+import rue from "../../assets/Mount-Rwenzori.jpg";
+import nak from "../../assets/l nakuru.jpeg";
+import tsa from "../../assets/tsavo.jpeg";
+
+import cost from "../../assets/fort.jpeg";
 
 const Data = [
   {
     id: 1,
-    imgsrc: img,
+    imgsrc: ke,
     desttitle: "Mt. Kenya",
     location: "Central",
-    grade: "Cultural",
+    grade: "Hiking, Wildlife Viewing",
     price: "sh500",
     description: "The best place to be",
   },
   {
     id: 2,
-    imgsrc: img,
-    desttitle: "Mt. Kenya",
-    location: "Central",
+    imgsrc: rue,
+    desttitle: "Mt. Ruwenzori,",
+    location: "Nyanza",
     grade: "Cultural",
     price: "sh500",
-    description: "The best place to be",
+    description: "The best place to ",
   },
   {
     id: 3,
-    imgsrc: img,
-    desttitle: "Mt. Kenya",
-    location: "Central",
+    imgsrc: nak,
+    desttitle: "Lake Nakuru",
+    location: "Rift",
     grade: "Cultural",
     price: "sh500",
     description: "The best place to be",
   },
   {
     id: 4,
-    imgsrc: img,
-    desttitle: "Mt. Kenya",
-    location: "Central",
-    grade: "Cultural",
+    imgsrc: tsa,
+    desttitle: "Tsavo National Park",
+    location: "costal",
+    grade: "",
     price: "sh500",
     description: "The best place to be",
   },
   {
     id: 5,
     imgsrc: img,
-    desttitle: "Mt. Kenya",
-    location: "Central",
+    desttitle: "Nairobi national park",
+    location: "Nairob",
     grade: "Cultural",
     price: "sh500",
     description: "The best place to be",
   },
   {
     id: 6,
-    imgsrc: img,
-    desttitle: "Mt. Kenya",
+    imgsrc: cost,
+    desttitle: "Coastal Kenya",
     location: "Central",
+    grade: "coast",
+    price: "sh500",
+    description: "The best place to be",
+  },
+  {
+    id: 3,
+    imgsrc: nak,
+    desttitle: "Lake Nakuru",
+    location: "Rift",
+    grade: "Cultural",
+    price: "sh500",
+    description: "The best place to be",
+  },
+  {
+    id: 3,
+    imgsrc: nak,
+    desttitle: "Maasai mara ",
+    location: "Rift",
     grade: "Cultural",
     price: "sh500",
     description: "The best place to be",
@@ -82,14 +106,14 @@ const Destinations = () => {
                     <div className="grade">
                       <span>
                         {grade}
-                        <small>+1</small>
+                        <small>/=</small>
                       </span>
                     </div>
                     <div className="price">
                       <h5>{price}</h5>
                     </div>
                   </div>
-                  <div className="desc">{description}</div>
+                  <div className="desc-page">{description}</div>
                   <button className="btn flex">Book Now</button>
                 </div>
               </div>

@@ -107,14 +107,14 @@
 .single-destination {
   display: flex;
   flex-direction: column;
-  /* height: 100%; */
-  /* width: 40%; */
   row-gap: 10px;
   border-radius: 10px;
   align-items: center;
   background: var(--color-primary-light);
   box-shadow: 0 2px 4px rgba(95, 189, 106, 0.549);
   overflow: hidden;
+  max-width: 300px;
+  width: 100%;
   transition:
     background 0.3s ease,
     box-shadow 0.3s ease;
@@ -143,37 +143,46 @@
 
   .card-info {
     padding: 1rem;
+
     text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+  .sec-title {
+    color: var(--color-black);
+    font-size: 1.25rem;
+  }
 
-    .dest-title {
-      color: var(--color-black);
-      font-size: 1.25rem;
-    }
+  .name-flex {
+    margin: 0.5rem 0;
+  }
 
-    .name-flex {
-      margin: 0.5rem 0;
-    }
+  .price-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 
-    .price-flex {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-    }
+  .desc-page {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
 
-    .desc {
-      margin-top: 1rem;
-    }
-
-    .btn {
-      margin-top: 1rem;
-      padding: 3px;
-      background-color: var(--color-secondary);
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      .btn:hover {
-        background-color: var(--color-primary-light);
-      }
+  .btn {
+    margin-top: 1rem;
+    width: 90px;
+    padding: 9px;
+    background-color: var(--color-secondary);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    .btn:hover {
+      background-color: var(--color-primary-light);
     }
   }
 }
