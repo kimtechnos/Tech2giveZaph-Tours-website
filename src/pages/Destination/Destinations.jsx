@@ -20,7 +20,7 @@ const Destinations = () => {
         <Destination
           image={h6}
           name="mt kenya"
-          description="Hike through stunning landscapes and diverse ecosystems on this unforgettable expedition to Africa's second-highest mountain. "
+          description=" Hike through stunning afro-alpine landscapes and diverse ecosystems on this unforgettable expedition to Africa's second-highest mountain. "
           link="mt.com"
           pricegroup="150/="
           priceindividual="500/="
@@ -28,7 +28,7 @@ const Destinations = () => {
         <Destination
           image={h2}
           name="Masai Mara National Reserve"
-          description="very cool place"
+          description=" Witness the awe-inspiring wildebeest migration and experience the thrilling drama of predator-prey encounters in this world-renowned wildlife reserve."
           link="mt.com"
           pricegroup="150/="
           priceindividual="500/="
@@ -36,7 +36,7 @@ const Destinations = () => {
         <Destination
           image={h3}
           name="Amboseli National Park"
-          description="very cool place"
+          description="Witness the majestic beauty of Africa's highest mountain, Kilimanjaro, as a backdrop to herds of elephants and a variety of wildlife in this scenic national park. "
           link="mt.com"
           pricegroup="150/="
           priceindividual="500/="
@@ -44,7 +44,7 @@ const Destinations = () => {
         <Destination
           image={banner}
           name="The Great Rift Valley"
-          description="very cool place"
+          description="Journey through a geological marvel, the Great Rift Valley, and explore a landscape sculpted by millions of years of volcanic activity."
           link="mt.com"
           pricegroup="150/="
           priceindividual="500/="
@@ -52,7 +52,7 @@ const Destinations = () => {
         <Destination
           image={h4}
           name="Laikipia Plateau"
-          description="very cool place"
+          description="Explore vast landscapes, encounter diverse wildlife, and experience a commitment to conservation on the Laikipia Plateau."
           link="mt.com"
           pricegroup="150/="
           priceindividual="500/="
@@ -60,7 +60,7 @@ const Destinations = () => {
         <Destination
           image={h1}
           name="Diani Beach"
-          description="very cool place"
+          description="The clear waters off Diani Beach are perfect for swimming, snorkeling, and diving. You can also try your hand at windsurfing, kitesurfing, or paddleboarding."
           link="mt.com"
           pricegroup="150/="
           priceindividual="500/="
@@ -68,7 +68,7 @@ const Destinations = () => {
         <Destination
           image={banner}
           name="Meru National Par"
-          description="very cool place"
+          description="Relax on pristine white sand beaches, bask in the warm sunshine, and enjoy the turquoise waters of the Indian Ocean"
           link="mt.com"
           pricegroup="150/="
           priceindividual="500/="
@@ -76,7 +76,7 @@ const Destinations = () => {
         <Destination
           image={banner}
           name="Lewa Wildlife Conservancy"
-          description="very cool place"
+          description=" Lewa is home to one of the largest populations of black rhinos in East Africa."
           link="mt.com"
           pricegroup="150/="
           priceindividual="500/="
